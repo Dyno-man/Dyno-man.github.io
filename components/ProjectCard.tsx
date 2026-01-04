@@ -24,9 +24,16 @@ export default function ProjectCard({ project, featured = false }: ProjectCardPr
         />
       </div>
       <div className="p-6">
-        <h3 className="text-xl font-semibold mb-2 text-dark-text group-hover:text-accent-blue transition-colors duration-200">
-          {project.title}
-        </h3>
+        <Link
+          href={project.githubLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block mb-2"
+        >
+          <h3 className="text-xl font-semibold text-dark-text group-hover:text-accent-blue transition-colors duration-200 hover:text-accent-blue cursor-pointer">
+            {project.title}
+          </h3>
+        </Link>
         <p className="text-dark-text-muted mb-4 text-sm leading-relaxed">
           {project.description}
         </p>
