@@ -8,7 +8,7 @@ A modern, scalable personal website built with Next.js, TypeScript, and Tailwind
 - 📁 **Projects Page** with category filtering
 - 🎨 **Dark Theme** with minimalist design and smooth animations
 - 📱 **Fully Responsive** design
-- 🚀 **GitHub Pages Ready** - configured for static export
+- 🚀 **GitHub Pages Ready** - configured for a static export
 
 ## Getting Started
 
