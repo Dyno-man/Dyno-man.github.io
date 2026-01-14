@@ -57,7 +57,7 @@ export const projects: Project[] = [
     id: 'project-6',
     title: 'Receipt Finance Tracker - OCR model to track my personal finances',
     description: 'This is a personal finance tracking website that anyone can spin up on their own linux server. You will be able to setup your own backend by downloading this repo and running a single bash script.',
-    image: '/images/project-5.png',
+    image: '/images/project-6.webp',
     githubLink: 'https://github.com/Dyno-man/Receipt-Finance-Tracker',
     techStack: ['Python', 'Docker', 'Computer Vision', 'OCR'],
     categories: ['Docker', 'Computer Vision', 'Python'],
