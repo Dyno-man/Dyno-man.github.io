@@ -53,6 +53,16 @@ export const projects: Project[] = [
     categories: ['Cryptography'],
     featured: false,
   },
+  {
+    id: 'project-6',
+    title: 'Receipt Finance Tracker - OCR model to track my personal finances',
+    description: 'This is a personal finance tracking website that anyone can spin up on their own linux server. You will be able to setup your own backend by downloading this repo and running a single bash script.',
+    image: '/images/project-5.png',
+    githubLink: 'https://github.com/Dyno-man/Receipt-Finance-Tracker',
+    techStack: ['Python', 'Docker', 'Computer Vision', 'OCR'],
+    categories: ['Docker', 'Computer Vision', 'Python'],
+    featured: false,
+  },
 ];
 
 // Helper function to get featured projects
