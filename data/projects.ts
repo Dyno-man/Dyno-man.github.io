@@ -31,7 +31,7 @@ export const projects: Project[] = [
     githubLink: 'https://github.com/Dyno-man/Moving-Camera-Climbing',
     techStack: ['RPI 4B', 'Python', 'OpenCV', 'YoloV3', 'Web Sockets'],
     categories: ['Embedded Systems', 'Computer Vision', 'AI'],
-    featured: true,
+    featured: false,
   },
   {
     id: 'project-4',
@@ -55,13 +55,13 @@ export const projects: Project[] = [
   },
   {
     id: 'project-6',
-    title: 'Receipt Finance Tracker - OCR model to track personal finances',
-    description: 'This is a personal finance tracking website that anyone can spin up on their own linux server. You will be able to setup your own backend by downloading this repo and running a single bash script.',
+    title: 'Dinos Finance Essential',
+    description: 'A self-hosted receipt finance tracker that uses OCR to extract spending data from uploaded receipts, then organizes it with a Next.js frontend, FastAPI services, PostgreSQL persistence, and authenticated user sessions.',
     image: '/images/project-6.webp',
-    githubLink: 'https://github.com/Dyno-man/Receipt-Finance-Tracker',
-    techStack: ['Python', 'Docker', 'Computer Vision', 'OCR'],
-    categories: ['Docker', 'Computer Vision', 'Python'],
-    featured: false,
+    githubLink: 'https://github.com/Dyno-man/Dinos-Finance-Essential',
+    techStack: ['Next.js', 'Python', 'FastAPI', 'PostgreSQL', 'Docker', 'OCR'],
+    categories: ['Web Development', 'Docker', 'Computer Vision', 'Python', 'Database'],
+    featured: true,
   },
 ];
 
@@ -78,4 +78,3 @@ export const getAllCategories = (): string[] => {
   });
   return Array.from(categories).sort();
 };
-
