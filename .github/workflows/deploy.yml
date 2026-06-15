@@ -37,6 +37,12 @@ jobs:
       - name: Build
         run: npm run build
       
+      - name: Show build output
+        run: |
+          pwd
+          ls -la
+          find . -maxdepth 3 -type d
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
       
