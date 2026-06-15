@@ -36,12 +36,7 @@ jobs:
       
       - name: Build
         run: npm run build
-      
-      - name: Show build output
-        run: |
-          pwd
-          ls -la
-          find . -maxdepth 3 -type d
+    
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -49,7 +44,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'
+          path: './.next-build'
       
       - name: Deploy to GitHub Pages
         id: deployment
