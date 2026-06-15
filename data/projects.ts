@@ -63,6 +63,16 @@ export const projects: Project[] = [
     categories: ['Web Development', 'Docker', 'Computer Vision', 'Python', 'Database'],
     featured: true,
   },
+  {
+    id: 'project-7',
+    title: 'SpeedReader - RSVP-Based Speed Reading App',
+    description: 'SpeedReader is a local-first speed reading app that uses Rapid Serial Visual Presentation to flash words at a configurable pace with optimal recognition point highlighting. It supports browser-based reading workflows for pasted text, uploaded documents, progress tracking, and privacy-conscious client-side processing.',
+    image: '/images/project-7.png',
+    githubLink: 'https://github.com/Dyno-man/Speed-Reader',
+    techStack: ['Next.js', 'TypeScript', 'React', 'Zustand', 'pdf.js', 'JSZip', 'CSS'],
+    categories: ['Web Development', 'Productivity', 'TypeScript', 'Local-First'],
+    featured: false,
+  },
 ];
 
 // Helper function to get featured projects
