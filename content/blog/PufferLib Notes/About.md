@@ -1,0 +1,1 @@
+These are my notes because the current PufferAI docs are horrendous 

@@ -32,6 +32,12 @@ export default function Navigation() {
             >
               Projects
             </Link>
+            <Link 
+              href="/blog" 
+              className="text-dark-text-muted hover:text-accent-blue transition-colors duration-200"
+            >
+              Blog
+            </Link>
             <div className="h-6 w-px bg-dark-border" />
             <SocialLinks />
           </div>
@@ -77,6 +83,13 @@ export default function Navigation() {
             >
               Projects
             </Link>
+            <Link
+              href="/blog"
+              className="block text-dark-text-muted hover:text-accent-blue transition-colors duration-200"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Blog
+            </Link>
             <div className="pt-2">
               <SocialLinks />
             </div>
@@ -86,4 +99,3 @@ export default function Navigation() {
     </nav>
   );
 }
-

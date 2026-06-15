@@ -1,0 +1,1 @@
+This folder is for the commands of a laptop that does not have a graphics card

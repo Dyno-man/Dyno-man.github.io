@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  distDir: process.env.NEXT_DIST_DIR || '.next',
+  output: process.env.NODE_ENV === 'production' ? 'export' : undefined,
   images: {
     unoptimized: true,
   },
@@ -8,4 +9,3 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
-
